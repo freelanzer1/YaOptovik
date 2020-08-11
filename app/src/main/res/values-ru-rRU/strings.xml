@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Я оптовик</string>
+    <string name="navigation_drawer_open">Открыь панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Навигационная панель</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Заказы</string>
+    <string name="menu_suppliers">Поставщики</string>
+    <string name="menu_slideshow">Хз</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
