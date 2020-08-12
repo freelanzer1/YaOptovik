@@ -30,14 +30,14 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.konstantinov.yaoptovik.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_suppliers"
+        android:name="com.konstantinov.yaoptovik.ui.suppliers.SuppliersFragment"
+        android:label="@string/menu_suppliers"
+        tools:layout="@layout/fragment_suppliers" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.konstantinov.yaoptovik.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_account"
+        android:name="com.konstantinov.yaoptovik.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>

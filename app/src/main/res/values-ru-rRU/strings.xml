@@ -10,7 +10,7 @@
 
     <string name="menu_home">Заказы</string>
     <string name="menu_suppliers">Поставщики</string>
-    <string name="menu_slideshow">Хз</string>
+    <string name="menu_account">Мой профиль</string>
 
     <string name="home_second">Home Second</string>
 </resources>

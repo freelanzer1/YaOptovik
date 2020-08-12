@@ -1,14 +1,14 @@
-package com.konstantinov.yaoptovik.ui.gallery;
+package com.konstantinov.yaoptovik.ui.suppliers;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class SuppliersViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public SuppliersViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }
