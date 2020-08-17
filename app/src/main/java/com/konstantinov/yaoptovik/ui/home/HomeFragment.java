@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.konstantinov.yaoptovik.Fab;
+import com.konstantinov.yaoptovik.MainActivity;
 import com.konstantinov.yaoptovik.R;
 
 public class HomeFragment extends Fragment {
@@ -30,6 +32,8 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+        Fab.fabAction (MainActivity.navController, MainActivity.fab, true);
         return root;
     }
+
 }

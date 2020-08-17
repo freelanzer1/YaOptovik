@@ -40,4 +40,9 @@
         android:name="com.konstantinov.yaoptovik.ui.account.AccountFragment"
         android:label="@string/menu_account"
         tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/suppliersAddFragment"
+        android:name="com.konstantinov.yaoptovik.ui.suppliers.SuppliersAddFragment"
+        android:label="fragment_suppliers_add"
+        tools:layout="@layout/fragment_suppliers_add" />
 </navigation>

@@ -10,7 +10,7 @@ public class SuppliersViewModel extends ViewModel {
 
     public SuppliersViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Отображаем поставщиков");
     }
 
     public LiveData<String> getText() {
