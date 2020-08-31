@@ -32,7 +32,7 @@ public class SuppliersFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        Fab.fabAction (MainActivity.navController, MainActivity.fab, false);
+        Fab.fabAction (MainActivity.navController, MainActivity.fab, true);
         return root;
     }
 }

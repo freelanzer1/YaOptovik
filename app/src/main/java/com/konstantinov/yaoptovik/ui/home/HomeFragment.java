@@ -32,7 +32,7 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        Fab.fabAction (MainActivity.navController, MainActivity.fab, true);
+        Fab.fabAction (MainActivity.navController, MainActivity.fab, false);
         return root;
     }
 

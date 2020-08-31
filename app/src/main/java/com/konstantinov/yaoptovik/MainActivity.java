@@ -8,6 +8,7 @@ import android.view.Menu;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.konstantinov.yaoptovik.ui.suppliers.SuppliersAddFragment;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
@@ -63,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-
 
 
 
